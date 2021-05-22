@@ -1,6 +1,6 @@
 # Recursive Semi CRF
 
-This is the source code of "N-ary Constituent Tree Parsing with Recursive Semi-CRF" from ACL 2019.
+This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-CRF" from ACL 2021.
 
 ## Contents
 1. [Requirements](#Requirements)
@@ -10,16 +10,14 @@ This is the source code of "N-ary Constituent Tree Parsing with Recursive Semi-C
 
 ## Requirements
 
-* Python 3.6 or higher.
-* Cython 0.25.2 or any compatible version.
-* [PyTorch](http://pytorch.org/) 0.4.0. This code has not been tested with PyTorch 1.0, but it should work.
-* [EVALB](http://nlp.cs.nyu.edu/evalb/). Before starting, run `make` inside the `EVALB/` directory to compile an `evalb` executable. This will be called from Python for evaluation. 
-* [AllenNLP](http://allennlp.org/) 0.7.0 or any compatible version (only required when using ELMo word representations)
-* [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) PyTorch 1.0.0+ or any compatible version (only required when using BERT and XLNet, XLNet only for joint span version.)
-
-#### Pre-trained Models (PyTorch)
+* Python : 3.6 or higher.
+* Cython : 0.25.2 or any compatible version.
+* [PyTorch](http://pytorch.org/) : 1.6.0 or any compatible version.
+* [transformers](https://github.com/huggingface/pytorch-transformers) : 3.0 or any compatible version.
+* [EVALB](http://nlp.cs.nyu.edu/evalb/) : run “make" in "./EVALB" first to generate "evalb" for evaluation.
 
 ## Training
+pass
 
 ### Training Instructions
 
@@ -73,6 +71,7 @@ Argument | Description | Default
 `--dataset`     | Dataset type | ptb
 
 ## Citation
+pass
 
 ## Credits
 
