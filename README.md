@@ -1,4 +1,4 @@
-# Recursive Semi CRF
+# Recursive Semi-Markov Model
 
 This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-CRF" from ACL 2021.
 
