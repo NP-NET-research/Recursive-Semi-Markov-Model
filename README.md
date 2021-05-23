@@ -27,32 +27,12 @@ Argument | Description | Default
 --- | --- | ---
 `--model-path-base` | Path base to use for saving models | N/A
 `--evalb-dir` |  Path to EVALB directory | `EVALB/`
-` --train-ptb-path` | Path to training constituent parsing | `data/02-21.10way.clean`
-`--dev-ptb-path` | Path to development constituent parsing | `data/22.auto.clean`
-`--dep-train-ptb-path` | Path to training dependency parsing | `data/ptb_train_3.3.0.sd`
-`--dep-dev-ptb-path` | Path to development dependency parsing | `data/ptb_dev_3.3.0.sd`
+` --train-path` | Path to training constituent parsing | `data/02-21.10way.clean`
+`--dev-path` | Path to development constituent parsing | `data/22.auto.clean`
 `--batch-size` | Number of examples per training update | 250
-`--checks-per-epoch` | Number of development evaluations per epoch | 4
 `--subbatch-max-tokens` | Maximum number of words to process in parallel while training (a full batch may not fit in GPU memory) | 2000
-`--eval-batch-size` | Number of examples to process in parallel when evaluating on the development set | 30
-`--numpy-seed` | NumPy random seed | Random
-`--use-words` | Use learned word embeddings | Do not use word embeddings
-`--use-tags` | Use predicted part-of-speech tags as input | Do not use predicted tags
-`--use-chars-lstm` | Use learned CharLSTM word representations | Do not use CharLSTM
-`--use-elmo` | Use pre-trained ELMo word representations | Do not use ELMo
-`--use-bert` | Use pre-trained BERT word representations | Do not use BERT
-`--use-xlnet` | Use pre-trained XLNet word representations | Do not use XLNet
-`--pad-left` | When using pre-trained XLNet padding on left | Do not pad on left
-`--bert-model` | Pre-trained BERT model to use if `--use-bert` is passed | `bert-large-uncased`
-`--no-bert-do-lower-case` | Instructs the BERT tokenizer to retain case information (setting should match the BERT model in use) | Perform lowercasing
-`--xlnet-model` | Pre-trained XLNet model to use if `--use-xlnet` is passed | `xlnet-large-cased`
-`--no-xlnet-do-lower-case` | Instructs the XLNet tokenizer to retain case information (setting should match the XLNet model in use) | Perform uppercasing
-`--const-lada` | Lambda weight | 0.5
-`--model-name` | Name of model | test
-`--embedding-path` | Path to pre-trained embedding | N/A
-`--embedding-type` | Pre-trained embedding type | glove
-`--dataset`     | Dataset type | ptb
-
+`--eval-batch-size` | Number of examples to process in parallel when evaluating on the development set | 100
+`--checks-per-epoch` | Number of development evaluations per epoch | 4
 
 Additional arguments are available for other hyperparameters; see `make_hparams()` in `src/main.py`. These can be specified on the command line, such as `--num-layers 2` (for numerical parameters), `--use-tags` (for boolean parameters that default to False), or `--no-partitioned` (for boolean parameters that default to True).
 
@@ -64,11 +44,8 @@ Argument | Description | Default
 --- | --- | ---
 `--model-path-base` | Path base of saved model | N/A
 `--evalb-dir` |  Path to EVALB directory | `EVALB/`
-`--test-ptb-path` | Path to test constituent parsing | `data/23.auto.clean`
-`--dep-test-ptb-path` | Path to test dependency parsing | `data/ptb_test_3.3.0.sd`
-`--embedding-path` | Path to pre-trained embedding | `data/glove.6B.100d.txt.gz`
+`--test-path` | Path to test constituent parsing | `data/23.auto.clean`
 `--eval-batch-size` | Number of examples to process in parallel when evaluating on the test set | 100
-`--dataset`     | Dataset type | ptb
 
 ## Citation
 pass
