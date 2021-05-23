@@ -78,5 +78,6 @@ If you are interested in our researches, please cite:
 ```
 
 ## Credits
+Our work is based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) and [Multilingual Constituency Parsing with Self-Attention and Pre-Training](https://arxiv.org/abs/1812.11760). 
 
 The code in this repository and portions of this README are based on https://github.com/nikitakit/self-attentive-parser
