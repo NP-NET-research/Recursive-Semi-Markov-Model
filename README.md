@@ -1,6 +1,6 @@
 # Recursive Semi-Markov Model
 
-This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-CRF" from ACL 2021.
+This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-Markov Model" from ACL 2021.
 
 `src_cn` and `src_en` are the codes used in Chinese and English tasks respectively.
 ## Contents
