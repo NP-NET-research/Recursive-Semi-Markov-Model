@@ -2,6 +2,7 @@
 
 This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-CRF" from ACL 2021.
 
+`src_cn` and `src_en` are the codes used in Chinese and English tasks respectively.
 ## Contents
 1. [Requirements](#Requirements)
 2. [Training](#Training)
@@ -10,14 +11,14 @@ This is the source code for "N-ary Constituent Tree Parsing with Recursive Semi-
 
 ## Requirements
 
-* Python : 3.6 or higher.
+* Python : 3.7 or higher.
 * Cython : 0.25.2 or any compatible version.
 * [PyTorch](http://pytorch.org/) : 1.6.0 or any compatible version.
 * [transformers](https://github.com/huggingface/pytorch-transformers) : 3.0 or any compatible version.
-* [EVALB](http://nlp.cs.nyu.edu/evalb/) : run “make" in "./EVALB" first to generate "evalb" for evaluation.
+* [EVALB](http://nlp.cs.nyu.edu/evalb/) : run `make` in `./EVALB` first to compile `evalb` for evaluation.
 
 ## Training
-pass
+Training requires cloning this repository from GitHub. You can download `src_cn` or 
 
 ### Training Instructions
 
