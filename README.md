@@ -49,7 +49,9 @@ As an example, you can use the following command to evaluate a trained model:
 python main.py test --model-path-base ../model/cn_bert_t1_dev=*.pt
 ```
 
+## Citation
+
 ## Credits
-Our work is based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) and [Multilingual Constituency Parsing with Self-Attention and Pre-Training](https://arxiv.org/abs/1812.11760). 
+Our work is based on [Constituency Parsing with a Self-Attentive Encoder](https://www.aclweb.org/anthology/P18-1249) and [Multilingual Constituency Parsing with Self-Attention and Pre-Training](https://www.aclweb.org/anthology/P19-1340). 
 
 The code in this repository and portions of this README are based on https://github.com/nikitakit/self-attentive-parser
