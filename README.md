@@ -50,6 +50,10 @@ python main.py test --model-path-base ../model/cn_bert_t1_dev=*.pt
 ```
 
 ## Citation
+If you are interested in our researches, please cite:
+```
+Xin Xin, Jinlong Li and Zeqi Tan. 2021. N-ary Constituent Tree Parsing with Recursive Semi-Markov Model. Accept by ACL-IJCNLP.
+```
 
 ## Credits
 Our work is based on [Constituency Parsing with a Self-Attentive Encoder](https://www.aclweb.org/anthology/P18-1249) and [Multilingual Constituency Parsing with Self-Attention and Pre-Training](https://www.aclweb.org/anthology/P19-1340). 
